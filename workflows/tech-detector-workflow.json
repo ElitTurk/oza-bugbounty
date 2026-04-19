@@ -1,0 +1,1 @@
+{"name": "Tech Detector","on": {"workflow_dispatch": {}},"jobs": {"techDetector": {"runs-on": "ubuntu-latest","steps": [{"name": "Run Tech Detector Workflow","uses": "n8n/n8n@latest","with": {"args": "--run once"}}]}}}
